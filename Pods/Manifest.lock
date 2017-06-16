@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.4.0)
+  - SwiftSpinner (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - SwiftSpinner
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  SwiftSpinner: c03815614599b91eea46594bd52ba742849d0414
+
+PODFILE CHECKSUM: cc0dce4df1fb5dba7666962cae6027cbff8f60b9
+
+COCOAPODS: 1.2.1

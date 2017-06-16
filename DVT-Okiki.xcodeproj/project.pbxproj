@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		326BA55D80B7723606DDCE72 /* Pods_DVT_Okiki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F631C4AAA9F0D3A1A3502904 /* Pods_DVT_Okiki.framework */; };
+		EA448F991EF2F735003A23B5 /* DVTUIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA448F981EF2F734003A23B5 /* DVTUIHelper.swift */; };
+		EA448F9B1EF314EF003A23B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA448F9A1EF314EF003A23B5 /* Constants.swift */; };
+		EAD1B9A81EF2A08700069BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1B9A71EF2A08700069BEB /* AppDelegate.swift */; };
+		EAD1B9AA1EF2A08700069BEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1B9A91EF2A08700069BEB /* ViewController.swift */; };
+		EAD1B9AD1EF2A08700069BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD1B9AB1EF2A08700069BEB /* Main.storyboard */; };
+		EAD1B9AF1EF2A08700069BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD1B9AE1EF2A08700069BEB /* Assets.xcassets */; };
+		EAD1B9B21EF2A08700069BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD1B9B01EF2A08700069BEB /* LaunchScreen.storyboard */; };
+		EAD1B9BD1EF2A08700069BEB /* DVT_OkikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1B9BC1EF2A08700069BEB /* DVT_OkikiTests.swift */; };
+		EAD1B9C81EF2A08700069BEB /* DVT_OkikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1B9C71EF2A08700069BEB /* DVT_OkikiUITests.swift */; };
+		EAD1B9D61EF2A0E100069BEB /* DVTLocationResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1B9D51EF2A0E100069BEB /* DVTLocationResolver.swift */; };
+		EAD1B9D81EF2A95F00069BEB /* DVTHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1B9D71EF2A95F00069BEB /* DVTHelper.swift */; };
+		EAE157841EF33B9900C00440 /* DVTModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE157831EF33B9900C00440 /* DVTModelHelper.swift */; };
+		EF8329E9417D4F5874FC1F95 /* Pods_DVT_OkikiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F2BF8D3566A22A151D383 /* Pods_DVT_OkikiTests.framework */; };
+		F4188123BB55009A24F18F1C /* Pods_DVT_OkikiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBB3A544346141C8D2C1E41 /* Pods_DVT_OkikiUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAD1B9B91EF2A08700069BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAD1B99C1EF2A08600069BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD1B9A31EF2A08600069BEB;
+			remoteInfo = "DVT-Okiki";
+		};
+		EAD1B9C41EF2A08700069BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAD1B99C1EF2A08600069BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD1B9A31EF2A08600069BEB;
+			remoteInfo = "DVT-Okiki";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25228BEFE8C292B17C4E0734 /* Pods-DVT-OkikiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-OkikiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DVT-OkikiTests/Pods-DVT-OkikiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		497CB45980BA1181C1441BC8 /* Pods-DVT-OkikiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-OkikiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DVT-OkikiUITests/Pods-DVT-OkikiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6321918AEEE1782E8857FBB5 /* Pods-DVT-Okiki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-Okiki.release.xcconfig"; path = "Pods/Target Support Files/Pods-DVT-Okiki/Pods-DVT-Okiki.release.xcconfig"; sourceTree = "<group>"; };
+		848F2BF8D3566A22A151D383 /* Pods_DVT_OkikiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DVT_OkikiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1110132F2425C74DA54AF0 /* Pods-DVT-OkikiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-OkikiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DVT-OkikiUITests/Pods-DVT-OkikiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEBB3A544346141C8D2C1E41 /* Pods_DVT_OkikiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DVT_OkikiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA448F981EF2F734003A23B5 /* DVTUIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVTUIHelper.swift; sourceTree = "<group>"; };
+		EA448F9A1EF314EF003A23B5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EAD1B9A41EF2A08700069BEB /* DVT-Okiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DVT-Okiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD1B9A71EF2A08700069BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAD1B9A91EF2A08700069BEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAD1B9AC1EF2A08700069BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAD1B9AE1EF2A08700069BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAD1B9B11EF2A08700069BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAD1B9B31EF2A08700069BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD1B9B81EF2A08700069BEB /* DVT-OkikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DVT-OkikiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD1B9BC1EF2A08700069BEB /* DVT_OkikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVT_OkikiTests.swift; sourceTree = "<group>"; };
+		EAD1B9BE1EF2A08700069BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD1B9C31EF2A08700069BEB /* DVT-OkikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DVT-OkikiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD1B9C71EF2A08700069BEB /* DVT_OkikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVT_OkikiUITests.swift; sourceTree = "<group>"; };
+		EAD1B9C91EF2A08700069BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD1B9D51EF2A0E100069BEB /* DVTLocationResolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVTLocationResolver.swift; sourceTree = "<group>"; };
+		EAD1B9D71EF2A95F00069BEB /* DVTHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVTHelper.swift; sourceTree = "<group>"; };
+		EAE157831EF33B9900C00440 /* DVTModelHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVTModelHelper.swift; sourceTree = "<group>"; };
+		EBB594DDBF11DBA82989FAAC /* Pods-DVT-Okiki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-Okiki.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DVT-Okiki/Pods-DVT-Okiki.debug.xcconfig"; sourceTree = "<group>"; };
+		F28DE789BC4587B2665906C6 /* Pods-DVT-OkikiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-OkikiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DVT-OkikiTests/Pods-DVT-OkikiTests.release.xcconfig"; sourceTree = "<group>"; };
+		F631C4AAA9F0D3A1A3502904 /* Pods_DVT_Okiki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DVT_Okiki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD1B9A11EF2A08600069BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326BA55D80B7723606DDCE72 /* Pods_DVT_Okiki.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1B9B51EF2A08700069BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8329E9417D4F5874FC1F95 /* Pods_DVT_OkikiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1B9C01EF2A08700069BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4188123BB55009A24F18F1C /* Pods_DVT_OkikiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20C4C0A374FD78502ACDF10E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F631C4AAA9F0D3A1A3502904 /* Pods_DVT_Okiki.framework */,
+				848F2BF8D3566A22A151D383 /* Pods_DVT_OkikiTests.framework */,
+				DEBB3A544346141C8D2C1E41 /* Pods_DVT_OkikiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F8F99A5AD1DFB4838D75D34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBB594DDBF11DBA82989FAAC /* Pods-DVT-Okiki.debug.xcconfig */,
+				6321918AEEE1782E8857FBB5 /* Pods-DVT-Okiki.release.xcconfig */,
+				25228BEFE8C292B17C4E0734 /* Pods-DVT-OkikiTests.debug.xcconfig */,
+				F28DE789BC4587B2665906C6 /* Pods-DVT-OkikiTests.release.xcconfig */,
+				DC1110132F2425C74DA54AF0 /* Pods-DVT-OkikiUITests.debug.xcconfig */,
+				497CB45980BA1181C1441BC8 /* Pods-DVT-OkikiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAD1B99B1EF2A08600069BEB = {
+			isa = PBXGroup;
+			children = (
+				EAD1B9A61EF2A08700069BEB /* DVT-Okiki */,
+				EAD1B9BB1EF2A08700069BEB /* DVT-OkikiTests */,
+				EAD1B9C61EF2A08700069BEB /* DVT-OkikiUITests */,
+				EAD1B9A51EF2A08700069BEB /* Products */,
+				8F8F99A5AD1DFB4838D75D34 /* Pods */,
+				20C4C0A374FD78502ACDF10E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD1B9A51EF2A08700069BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1B9A41EF2A08700069BEB /* DVT-Okiki.app */,
+				EAD1B9B81EF2A08700069BEB /* DVT-OkikiTests.xctest */,
+				EAD1B9C31EF2A08700069BEB /* DVT-OkikiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD1B9A61EF2A08700069BEB /* DVT-Okiki */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1B9A71EF2A08700069BEB /* AppDelegate.swift */,
+				EA448F9A1EF314EF003A23B5 /* Constants.swift */,
+				EAD1B9D51EF2A0E100069BEB /* DVTLocationResolver.swift */,
+				EAD1B9D71EF2A95F00069BEB /* DVTHelper.swift */,
+				EA448F981EF2F734003A23B5 /* DVTUIHelper.swift */,
+				EAE157831EF33B9900C00440 /* DVTModelHelper.swift */,
+				EAD1B9A91EF2A08700069BEB /* ViewController.swift */,
+				EAD1B9AB1EF2A08700069BEB /* Main.storyboard */,
+				EAD1B9AE1EF2A08700069BEB /* Assets.xcassets */,
+				EAD1B9B01EF2A08700069BEB /* LaunchScreen.storyboard */,
+				EAD1B9B31EF2A08700069BEB /* Info.plist */,
+			);
+			path = "DVT-Okiki";
+			sourceTree = "<group>";
+		};
+		EAD1B9BB1EF2A08700069BEB /* DVT-OkikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1B9BC1EF2A08700069BEB /* DVT_OkikiTests.swift */,
+				EAD1B9BE1EF2A08700069BEB /* Info.plist */,
+			);
+			path = "DVT-OkikiTests";
+			sourceTree = "<group>";
+		};
+		EAD1B9C61EF2A08700069BEB /* DVT-OkikiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1B9C71EF2A08700069BEB /* DVT_OkikiUITests.swift */,
+				EAD1B9C91EF2A08700069BEB /* Info.plist */,
+			);
+			path = "DVT-OkikiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAD1B9A31EF2A08600069BEB /* DVT-Okiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD1B9CC1EF2A08700069BEB /* Build configuration list for PBXNativeTarget "DVT-Okiki" */;
+			buildPhases = (
+				962D2B7B6B5EDD8A6403B293 /* [CP] Check Pods Manifest.lock */,
+				EAD1B9A01EF2A08600069BEB /* Sources */,
+				EAD1B9A11EF2A08600069BEB /* Frameworks */,
+				EAD1B9A21EF2A08600069BEB /* Resources */,
+				5AA89FF92632416D26BDFCD5 /* [CP] Embed Pods Frameworks */,
+				2EB4544F582E04109A6340C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DVT-Okiki";
+			productName = "DVT-Okiki";
+			productReference = EAD1B9A41EF2A08700069BEB /* DVT-Okiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAD1B9B71EF2A08700069BEB /* DVT-OkikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD1B9CF1EF2A08700069BEB /* Build configuration list for PBXNativeTarget "DVT-OkikiTests" */;
+			buildPhases = (
+				5871105327AA1E8AE645D8C6 /* [CP] Check Pods Manifest.lock */,
+				EAD1B9B41EF2A08700069BEB /* Sources */,
+				EAD1B9B51EF2A08700069BEB /* Frameworks */,
+				EAD1B9B61EF2A08700069BEB /* Resources */,
+				09D995E7272C2B57F7526B3A /* [CP] Embed Pods Frameworks */,
+				0139CC11454779BE1F04DC29 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD1B9BA1EF2A08700069BEB /* PBXTargetDependency */,
+			);
+			name = "DVT-OkikiTests";
+			productName = "DVT-OkikiTests";
+			productReference = EAD1B9B81EF2A08700069BEB /* DVT-OkikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAD1B9C21EF2A08700069BEB /* DVT-OkikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD1B9D21EF2A08700069BEB /* Build configuration list for PBXNativeTarget "DVT-OkikiUITests" */;
+			buildPhases = (
+				F6C73B4A2F83F3BFC34BDA46 /* [CP] Check Pods Manifest.lock */,
+				EAD1B9BF1EF2A08700069BEB /* Sources */,
+				EAD1B9C01EF2A08700069BEB /* Frameworks */,
+				EAD1B9C11EF2A08700069BEB /* Resources */,
+				1B18E34385900471F68507CC /* [CP] Embed Pods Frameworks */,
+				01B0E56814B8EE80B8577B6B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD1B9C51EF2A08700069BEB /* PBXTargetDependency */,
+			);
+			name = "DVT-OkikiUITests";
+			productName = "DVT-OkikiUITests";
+			productReference = EAD1B9C31EF2A08700069BEB /* DVT-OkikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD1B99C1EF2A08600069BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Oyeleke Okiki";
+				TargetAttributes = {
+					EAD1B9A31EF2A08600069BEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NVFCH4PK72;
+						ProvisioningStyle = Automatic;
+					};
+					EAD1B9B71EF2A08700069BEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAD1B9A31EF2A08600069BEB;
+					};
+					EAD1B9C21EF2A08700069BEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAD1B9A31EF2A08600069BEB;
+					};
+				};
+			};
+			buildConfigurationList = EAD1B99F1EF2A08600069BEB /* Build configuration list for PBXProject "DVT-Okiki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAD1B99B1EF2A08600069BEB;
+			productRefGroup = EAD1B9A51EF2A08700069BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD1B9A31EF2A08600069BEB /* DVT-Okiki */,
+				EAD1B9B71EF2A08700069BEB /* DVT-OkikiTests */,
+				EAD1B9C21EF2A08700069BEB /* DVT-OkikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAD1B9A21EF2A08600069BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD1B9B21EF2A08700069BEB /* LaunchScreen.storyboard in Resources */,
+				EAD1B9AF1EF2A08700069BEB /* Assets.xcassets in Resources */,
+				EAD1B9AD1EF2A08700069BEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1B9B61EF2A08700069BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1B9C11EF2A08700069BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0139CC11454779BE1F04DC29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DVT-OkikiTests/Pods-DVT-OkikiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		01B0E56814B8EE80B8577B6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DVT-OkikiUITests/Pods-DVT-OkikiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09D995E7272C2B57F7526B3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DVT-OkikiTests/Pods-DVT-OkikiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B18E34385900471F68507CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DVT-OkikiUITests/Pods-DVT-OkikiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EB4544F582E04109A6340C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DVT-Okiki/Pods-DVT-Okiki-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5871105327AA1E8AE645D8C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5AA89FF92632416D26BDFCD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DVT-Okiki/Pods-DVT-Okiki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		962D2B7B6B5EDD8A6403B293 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C73B4A2F83F3BFC34BDA46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD1B9A01EF2A08600069BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD1B9D81EF2A95F00069BEB /* DVTHelper.swift in Sources */,
+				EAE157841EF33B9900C00440 /* DVTModelHelper.swift in Sources */,
+				EA448F991EF2F735003A23B5 /* DVTUIHelper.swift in Sources */,
+				EAD1B9D61EF2A0E100069BEB /* DVTLocationResolver.swift in Sources */,
+				EAD1B9AA1EF2A08700069BEB /* ViewController.swift in Sources */,
+				EAD1B9A81EF2A08700069BEB /* AppDelegate.swift in Sources */,
+				EA448F9B1EF314EF003A23B5 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1B9B41EF2A08700069BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD1B9BD1EF2A08700069BEB /* DVT_OkikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1B9BF1EF2A08700069BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD1B9C81EF2A08700069BEB /* DVT_OkikiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAD1B9BA1EF2A08700069BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD1B9A31EF2A08600069BEB /* DVT-Okiki */;
+			targetProxy = EAD1B9B91EF2A08700069BEB /* PBXContainerItemProxy */;
+		};
+		EAD1B9C51EF2A08700069BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD1B9A31EF2A08600069BEB /* DVT-Okiki */;
+			targetProxy = EAD1B9C41EF2A08700069BEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAD1B9AB1EF2A08700069BEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD1B9AC1EF2A08700069BEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAD1B9B01EF2A08700069BEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD1B9B11EF2A08700069BEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAD1B9CA1EF2A08700069BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAD1B9CB1EF2A08700069BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAD1B9CD1EF2A08700069BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB594DDBF11DBA82989FAAC /* Pods-DVT-Okiki.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NVFCH4PK72;
+				INFOPLIST_FILE = "DVT-Okiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dvt.okiki.DVT-Okiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EAD1B9CE1EF2A08700069BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6321918AEEE1782E8857FBB5 /* Pods-DVT-Okiki.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NVFCH4PK72;
+				INFOPLIST_FILE = "DVT-Okiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dvt.okiki.DVT-Okiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EAD1B9D01EF2A08700069BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25228BEFE8C292B17C4E0734 /* Pods-DVT-OkikiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DVT-OkikiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dvt.okiki.DVT-OkikiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVT-Okiki.app/DVT-Okiki";
+			};
+			name = Debug;
+		};
+		EAD1B9D11EF2A08700069BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F28DE789BC4587B2665906C6 /* Pods-DVT-OkikiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DVT-OkikiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dvt.okiki.DVT-OkikiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVT-Okiki.app/DVT-Okiki";
+			};
+			name = Release;
+		};
+		EAD1B9D31EF2A08700069BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1110132F2425C74DA54AF0 /* Pods-DVT-OkikiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "DVT-OkikiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dvt.okiki.DVT-OkikiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DVT-Okiki";
+			};
+			name = Debug;
+		};
+		EAD1B9D41EF2A08700069BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497CB45980BA1181C1441BC8 /* Pods-DVT-OkikiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "DVT-OkikiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dvt.okiki.DVT-OkikiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DVT-Okiki";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD1B99F1EF2A08600069BEB /* Build configuration list for PBXProject "DVT-Okiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD1B9CA1EF2A08700069BEB /* Debug */,
+				EAD1B9CB1EF2A08700069BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD1B9CC1EF2A08700069BEB /* Build configuration list for PBXNativeTarget "DVT-Okiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD1B9CD1EF2A08700069BEB /* Debug */,
+				EAD1B9CE1EF2A08700069BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD1B9CF1EF2A08700069BEB /* Build configuration list for PBXNativeTarget "DVT-OkikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD1B9D01EF2A08700069BEB /* Debug */,
+				EAD1B9D11EF2A08700069BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD1B9D21EF2A08700069BEB /* Build configuration list for PBXNativeTarget "DVT-OkikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD1B9D31EF2A08700069BEB /* Debug */,
+				EAD1B9D41EF2A08700069BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAD1B99C1EF2A08600069BEB /* Project object */;
+}
