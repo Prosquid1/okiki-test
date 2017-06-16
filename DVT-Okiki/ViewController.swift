@@ -188,15 +188,15 @@ class ViewController: UIViewController {
         if ( hour >= 6 && hour <= 18 ){
             
             sunPositionHeaderLabel.text = "SUNSET"
-            
+            sunPositionTime = getHourMinutesFromTimeStamp( unixTimestamp: openWeatherResponse.sys.sunsetTimeSeconds)
             
         } else {
         
             sunPositionHeaderLabel.text = "SUNRISE"
+            sunPositionTime = getHourMinutesFromTimeStamp( unixTimestamp: openWeatherResponse.sys.sunriseTimeSeconds)
             
         }
         
-        sunPositionTime = getHourMinutesFromTimeStamp( unixTimestamp: openWeatherResponse.sys.sunsetTimeSeconds)
         
         sunPositionValueLabel.text = sunPositionTime
         

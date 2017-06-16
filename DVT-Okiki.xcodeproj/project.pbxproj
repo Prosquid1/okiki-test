@@ -18,7 +18,7 @@
 		EAD1B9BD1EF2A08700069BEB /* DVT_OkikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1B9BC1EF2A08700069BEB /* DVT_OkikiTests.swift */; };
 		EAD1B9C81EF2A08700069BEB /* DVT_OkikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1B9C71EF2A08700069BEB /* DVT_OkikiUITests.swift */; };
 		EAD1B9D61EF2A0E100069BEB /* DVTLocationResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1B9D51EF2A0E100069BEB /* DVTLocationResolver.swift */; };
-		EAD1B9D81EF2A95F00069BEB /* DVTHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1B9D71EF2A95F00069BEB /* DVTHelper.swift */; };
+		EAD1B9D81EF2A95F00069BEB /* DVTUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1B9D71EF2A95F00069BEB /* DVTUtils.swift */; };
 		EAE157841EF33B9900C00440 /* DVTModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE157831EF33B9900C00440 /* DVTModelHelper.swift */; };
 		EF8329E9417D4F5874FC1F95 /* Pods_DVT_OkikiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F2BF8D3566A22A151D383 /* Pods_DVT_OkikiTests.framework */; };
 		F4188123BB55009A24F18F1C /* Pods_DVT_OkikiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBB3A544346141C8D2C1E41 /* Pods_DVT_OkikiUITests.framework */; };
@@ -64,7 +64,7 @@
 		EAD1B9C71EF2A08700069BEB /* DVT_OkikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVT_OkikiUITests.swift; sourceTree = "<group>"; };
 		EAD1B9C91EF2A08700069BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAD1B9D51EF2A0E100069BEB /* DVTLocationResolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVTLocationResolver.swift; sourceTree = "<group>"; };
-		EAD1B9D71EF2A95F00069BEB /* DVTHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVTHelper.swift; sourceTree = "<group>"; };
+		EAD1B9D71EF2A95F00069BEB /* DVTUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVTUtils.swift; sourceTree = "<group>"; };
 		EAE157831EF33B9900C00440 /* DVTModelHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVTModelHelper.swift; sourceTree = "<group>"; };
 		EBB594DDBF11DBA82989FAAC /* Pods-DVT-Okiki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-Okiki.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DVT-Okiki/Pods-DVT-Okiki.debug.xcconfig"; sourceTree = "<group>"; };
 		F28DE789BC4587B2665906C6 /* Pods-DVT-OkikiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT-OkikiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DVT-OkikiTests/Pods-DVT-OkikiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 				EAD1B9A71EF2A08700069BEB /* AppDelegate.swift */,
 				EA448F9A1EF314EF003A23B5 /* Constants.swift */,
 				EAD1B9D51EF2A0E100069BEB /* DVTLocationResolver.swift */,
-				EAD1B9D71EF2A95F00069BEB /* DVTHelper.swift */,
+				EAD1B9D71EF2A95F00069BEB /* DVTUtils.swift */,
 				EA448F981EF2F734003A23B5 /* DVTUIHelper.swift */,
 				EAE157831EF33B9900C00440 /* DVTModelHelper.swift */,
 				EAD1B9A91EF2A08700069BEB /* ViewController.swift */,
@@ -462,7 +462,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD1B9D81EF2A95F00069BEB /* DVTHelper.swift in Sources */,
+				EAD1B9D81EF2A95F00069BEB /* DVTUtils.swift in Sources */,
 				EAE157841EF33B9900C00440 /* DVTModelHelper.swift in Sources */,
 				EA448F991EF2F735003A23B5 /* DVTUIHelper.swift in Sources */,
 				EAD1B9D61EF2A0E100069BEB /* DVTLocationResolver.swift in Sources */,
