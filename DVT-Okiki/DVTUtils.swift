@@ -150,7 +150,7 @@ func getFormattedDayTime() -> String {
     
     if (hour > 12) {
         
-        return weekDay! + " \(24 - hour):\(minuteString)" + " PM"
+        return weekDay! + " \(hour - 12 ):\(minuteString)" + " PM"
         
     }
     
@@ -186,7 +186,7 @@ func getHourMinutesFromTimeStamp(unixTimestamp : Int) -> String {
     
     if (hour > 12) {
         
-        return "\(24 - hour):\(minuteString) PM"
+        return "\(hour - 12):\(minuteString) PM"
         
     }
     
